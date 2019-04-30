@@ -1,0 +1,32 @@
+{
+  "name": "node-cli",
+  "version": "1.0.0",
+  "description": "A random CLI tool",
+  "main": "src/index.js",
+  "bin": {
+    "@your_npm_username/create-project": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abrarShariar/node-cli.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abrarShariar/node-cli/issues"
+  },
+  "homepage": "https://github.com/abrarShariar/node-cli#readme",
+  "dependencies": {
+    "arg": "^4.1.0",
+    "esm": "^3.2.22",
+    "inquirer": "^6.3.1"
+  }
+}
